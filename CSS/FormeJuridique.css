@@ -1,0 +1,45 @@
+.formulaire {
+  background: #f1f7fc;
+  padding: 5% 0;
+}
+
+.formulaire form{
+  display: inline-block;
+  padding-right: 10% ;
+  padding-left: 10% ;
+}
+
+.formulaire form .btn {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  font-family: Webdings, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  display: inline-block;
+}
+
+.formulaire form .btn:hover {
+  opacity: 1;
+}
+
+.formulaire form .btn:active {
+  transform: translateY(1px);
+}
+
+.formulaire form .btn-primary {
+  background: linear-gradient(135deg, #172a74, #21a9af);
+  background-color: #055ada !important;
+  color: #fff;
+  margin-top: 2%;
+}
+
+.statut ::after, ::before {
+  font-color:white;
+  text-decoration: none;
+}
+
+.formulaire form .btn-group {
+  display: block;
+}

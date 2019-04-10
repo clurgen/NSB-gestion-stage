@@ -1,0 +1,27 @@
+@startuml
+actor utilisateur
+actor visiteur
+utilisateur -|> visiteur
+rectangle casUtilisation{
+    visiteur ->(accueil):consulter
+    utilisateur ->(connexion):se connecter
+    (connexion)->(profil):afficher
+    (connexion)-->(accueil):rediriger
+    (accueil) --> (creationEntreprise):rediriger
+    (accueil) --> (Location):rediriger
+    (accueil) --> (Domiciliation):rediriger
+    (accueil) --> (Partenaires):rediriger
+    (Domiciliation) --> (Tarifs/offres domiciliation) :afficher
+    (Domiciliation) --> (contact domiciliation):afficher
+    (Domiciliation) --> (FAQ domiciliation):rediriger
+    (Location) --> (Tarifs/Offres location) :afficher
+    (Location) --> (Contact):afficher
+    (Location) --> (FAQ location):rediriger
+    (creationEntreprise) --> (Formulaire) :remplir
+    (connexion) --> (Formulaire):<include>
+    (creationEntreprise) --> (Statuts gratuits)
+    (creationEntreprise) --> (Contact creationEntreprise):afficher
+    (creationEntreprise) --> (FAQ creationEntreprise):rediriger
+}
+
+@enduml

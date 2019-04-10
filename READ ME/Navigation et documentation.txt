@@ -1,0 +1,229 @@
+Navigabilité V
+Menu V
+Inscription client V
+Footer presque terminé (des redirections à faire avec les pages qui seront ajoutés) ~
+Base de données V
+Formulaire: ~
+Les données s'insèrent dans la base et sont récuperées pour la page de vérification des informations 
+Il reste à les inserer dans les statuts(docs) et à s'occuper de la partie paiement 
+Statuts juridique (docs) verifier leur conformités pour la partie formulaires gratuits et pour l'insertion des données dans ces formulaires ~
+Aspect vitrine pour les parties Location Domiciliation et Partenaires X
+Faire la homepage qui redirigera vers toute les parties (sauf partenaires) X
+Faire les FAQ X
+Gerer les reload et les retour en arriere dans le formulaire dans le cas ou une personne ajoute un associé par erreur ou dans le cas ou elle retourne
+en arrière après la page de verification
+Le site soit rester responsive (la class contact gère le responsive et l'apparence actuelle du site)
+
+Technologies utilisées:
+-WampServer
+-Apache
+-MySql
+
+Language
+-PHP(HTML+CSS)
+-JavaScript
+-SQL
+
+DOCUMENTATION + FIL D'ARIANNE
+Accueil
+	CREATION ENTREPRISE (2ème accueil)
+		FORMULAIRE POUR LA CREATION
+				Formulaire pour la creation d'entreprise (varie en fonction du statut juridique)
+					Demande au client de la procédure qu'il choisi (Formulaire à remplir ou Statuts gratuits)
+					Demande du statut juridique choisi
+					Questionnaire d'identité du client avec la posibilité d'ajouter un ou des associés
+					(Question d'identité du ou des associés si il y en a)
+					Choix du secteur d'activitée et de l'activité de l'entreprise et description de l'activité de l'entreprise
+					Demande du choix de dénomination sociale et de la dureé de vie de la société
+					Demande de l'adresse ou sera domicilié l'entreprise
+					Demande du regime fiscale choisi
+					Demande du statut social choisi
+			Modèles de statuts gratuits (pour ceux souhaitant créer leur entreprises seuls)
+				Statuts de société
+					Demande de mail, nom, prenom
+					Statuts EURL
+					Statuts SARL
+					Statuts SASU
+					Statuts SAS
+					Statuts SCI
+			Payant (pour ceux souhaitant que l'on s'occupe de la création de leurs entreprises)
+
+			Assistance
+				Aide pour le choix des statuts
+				Comparatif des statuts
+				Entretien avec un expert
+		CONTACT
+		FAQ
+			L’immatriculation (c'est quoi ?)
+			L’immatriculation RCS (c'est quoi ?)
+			Statut juridique (Lequel choisir ? + c'est quoi ?)
+			https://www.lecoindesentrepreneurs.fr/entreprise-choisir-le-statut-juridique/
+				Auto-entreprise
+				https://www.petite-entreprise.net/P-481-134-G1-c-est-quoi-un-auto-entrepreneur-les-explications.html
+				Association
+				https://www.lcl.com/guides-pratiques/creer-association/mode-emploi/definition-association-loi-1901.jsp
+				Entreprise individuelle (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/creation-dune-entreprise-individuelle-les-demarches/
+				SARL (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/constitution-d-une-sarl/
+				EURL (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/constitution-d-une-eurl/
+				EIRL (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/comment-creer-une-eirl/
+				SAS (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/proceder-a-la-constitution-dune-sas-guide-pratique/
+				SASU (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/constitution-d-une-sasu/
+				SA (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/creation-entreprise/formes-juridiques/sa/
+				SCI (c'est quoi ?)
+				https://www.legalplace.fr/guides/sci-societe-civile-immobiliere/
+					SCI familiale (c'est quoi ?)
+					https://www.legalplace.fr/guides/sci-societe-civile-immobiliere/
+					SCI de gestion (c'est quoi ?)
+					https://www.legalplace.fr/guides/sci-societe-civile-immobiliere/
+				Startup (c'est quoi ?)
+				https://www.cacomptepourmoi.fr/actualites/startup-definition/
+					Difference ente startup et entreprise classique
+					https://www.cacomptepourmoi.fr/actualites/startup-definition/ 
+				Micro-entreprise (c'est quoi ?)
+				Auto-entreprise (c'est quoi ?)
+			Régime fiscal de l’entreprise (c'est quoi ?)
+			https://www.lecoindesentrepreneurs.fr/ir-ou-is-regime-fiscal/
+				IS (impôt sur les société) (c'est quoi ?)
+				https://www.expert-comptable-tpe.fr/articles/impot-sur-le-revenu-ir-ou-impot-sur-les-societes-is-pour-mon-entreprise/
+				IR (impôt sur les revenus) (c'est quoi ?)
+				https://www.expert-comptable-tpe.fr/articles/impot-sur-le-revenu-ir-ou-impot-sur-les-societes-is-pour-mon-entreprise/
+					IS(impôt sur les société) VS IR (impôt sur les revenus)
+					https://www.expert-comptable-tpe.fr/articles/impot-sur-le-revenu-ir-ou-impot-sur-les-societes-is-pour-mon-entreprise/
+			Statut social (c'est quoi ?)
+			https://www.lecoindesentrepreneurs.fr/tns-ou-salarie/
+				Statut TNS
+				https://www.expert-comptable-tpe.fr/articles/tns-avantages-inconvenients/
+				Statut Assimilé salarié
+				https://www.expert-comptable-tpe.fr/articles/statut-dassimile-salarie-avantages-et-inconvenients/#Le-statut-d%E2%80%99assimile-salarie-c%E2%80%99est-pour-qui
+					Statut TNS VS Statut dirigeant assimilé salarié
+			Tableau resumant quoi choisir en fonction de sa situation
+			https://www.legalstart.fr/choix-forme-juridique/
+			Kbis (c'est quoi ?)
+			https://www.infogreffe.fr/documents-officiels/demande-kbis.html
+			
+			Demande d'accre (c'est quoi ?)
+			https://www.l-expert-comptable.com/a/37230-l-accre-c-est-quoi.html
+			Pacte d'actionnaires (c'est quoi ?)
+			https://www.petite-entreprise.net/P-877-134-G1-qu-est-ce-que-le-pacte-d-actionnaires.html
+				Clause de préemption (c'est quoi ?)
+				https://www.petite-entreprise.net/P-877-134-G1-qu-est-ce-que-le-pacte-d-actionnaires.html
+				Clause d'agrément préalable (c'est quoi ?)
+				https://www.petite-entreprise.net/P-877-134-G1-qu-est-ce-que-le-pacte-d-actionnaires.html
+				Clause d'inaliénabilité (c'est quoi ?)
+				https://www.petite-entreprise.net/P-877-134-G1-qu-est-ce-que-le-pacte-d-actionnaires.html
+			CFE (c'est quoi ?)
+			https://www.service-public.fr/professionnels-entreprises/vosdroits/F23547
+			Capital variable (c'est quoi ?)
+			Apport (c'est quoi ?)
+				Apport en nature (c'est quoi ?)
+				Apport numéraire (c'est quoi ?)
+			Frais de société (c'est quoi ?)
+			Gérant (c'est quoi ?)
+			Associé (c'est quoi ?)
+			Part (c'est quoi ?)
+
+		CONTACT
+	LOCATION (2ème accueil)
+		TARIFS/PRESENTATION DES OFFRES (prix HT, avg)
+			Location openspace
+				Espace de travail avec plusieurs formes
+				Pour les entreprises soumises à l'IS pas d'impôts jusqu'a 5000€ de bénéfices
+				Mise en place:
+					1 Téléphone fixe et 1 Fax dédiés
+					17 classeurs grands formats max
+				Sur demande:
+					Espace de stockage info
+					Possibilité d'avoir une baie de brassage
+					Avantage ZFU (Zone Franche Urbaine) sous conditions:
+						Détention d'un bail 369
+						Présence minimum 8j/mois dans les locaux à temps plein
+						Apporter la preuve que 30% des activités sont faites en ZFU
+				Tarifs (HT):
+					120€HT/mois loyer de base
+					10€HT/mois charges
+					20€HT/mois Téléphone (Ouverture de la ligne à 60€ Payable en 1 fois)
+					20€HT/mois Fax (Ouverture de la line à 60€ Payable en 1 fois)
+					40€HT/mois Location espace mensuel (8j*5€)
+				Nous contacter pour plus d'infos
+						
+			Location de bureau fixe
+				Contacter suivant les disponibilités pour des infos et tarifs
+			Location ponctuelle
+				Pour société externe:
+					Salle de reunion
+				Disponible pour les handicapés
+				Salle de formations ou de reunion agrée préfecture, pouvant accueillir 10 à 40 personnes
+				Nous contacter pour plus d'infos
+		CONTACT
+		FAQ
+			Les Locations
+			Location openspace (c'est quoi ?)
+			https://solutions.lesechos.fr/bureau-coworking/c/les-avantages-et-inconvenients-de-lopen-space-7695/
+				Zone franche urbaine (c'est quoi ?)
+				https://www.lecoindesentrepreneurs.fr/creer-en-zfu-a-savoir/
+				Location de bureau fixe (c'est quoi ?)
+				Vacataire (c'est quoi ?)
+				https://www.service-public.fr/particuliers/vosdroits/F31245
+				Location ponctuelle (c'est quoi ?)
+			Bail commercial (c'est quoi)
+			https://www.captaincontrat.com/articles-droit-commercial/renouvellement-bail-commercial-clause-tacite-reconduction#ancre5
+
+	DOMICILIATION (2ème accueil)
+		TARIFS/PRESENTATION DES OFFRES (prix HT, avg)
+			***Toutes formes juridiques***
+			24€HT Associations
+			58€HT Sociétés
+		CONTACT
+		FAQ	
+			Domiciliation (c'est quoi ?)
+				Domiciliation en ligne (c'est quoi ?)
+				https://sedomicilier.fr/articles/domiciliation-en-ligne-obtenir-un-contrat#definition_domiciliation_en_ligne
+				Domiciliation en ligne (pour qui ?)
+				https://sedomicilier.fr/articles/domiciliation-en-ligne-obtenir-un-contrat#a_qui_s_adresse_la_domiciliation_en_ligne
+				Domiciliation d'une association (comment ça marche ?)
+				https://www.captaincontrat.com/articles-creation-entreprise/domiciliation-association
+				Domiciliation d'une société (comment ça marche ?)
+				https://www.service-public.fr/professionnels-entreprises/vosdroits/F2160
+			Les acteurs de la domiciliation
+				Domiciliataire (c'est quoi ?)
+				Domicilié (c'est quoi ?)
+			Le contrat / Les clauses / Les obligations
+				Contrat de domiciliation (c'est quoi ?)
+				Obligation du domicilié (Quelles sont elles ?)
+				https://sedomicilier.fr/articles/obligations-domiciliataire-et-domicilie#les_obligations_du_domiciliataire
+				Obligation du domiciliataire (Quelles sont ?)
+				https://sedomicilier.fr/articles/obligations-domiciliataire-et-domicilie#les_obligations_du_domiciliataire
+				Tacite reconduction (c'est quoi ?)
+				https://fr.wikipedia.org/wiki/Tacite_reconduction_des_contrats_en_France
+				Bail commercial (c'est quoi)
+				https://www.captaincontrat.com/articles-droit-commercial/renouvellement-bail-commercial-clause-tacite-reconduction#ancre5
+			Société de domiciliation (c'est quoi ?)
+			https://sedomicilier.fr/articles/definition-societe-domiciliation#definition_quest_ce_quune_societe_de_domiciliation
+			Changement de domiciliation / Transfert de siège (comment ça marche ?)
+			https://www.infogreffe.fr/informations-et-dossiers-entreprises/dossiers-thematiques/vie-de-entreprise/transfert-de-siege.html
+			Greffe (c'est quoi ?)
+			Siège social (c'est quoi ?)
+			https://www.legalstart.fr/fiches-pratiques/siege-social/
+			Attestation de domiciliation
+			https://sedomicilier.fr/articles/attestation-contrat-domiciliation-differences#definition_attestation_domiciliation
+
+	PARTENAIRES (Page regroupant tout les partenaires si ils sont nombreux les regroupés par thèmes)
+		Cabinets d'asurances spécialisés
+		Collaborateurs du secteur bâtiment
+		Collaborateurs du secteur multirisques professionnel
+		Collaborateurs du secteur assurance immeuble
+		Collaborateurs du secteur mutuelles entreprises
+		Collaborateurs du secteur flottes automobiles
+		Sur place:
+			Avocats et partenaires juristes spécialisés dans les démarches administratives et l'établisement de protocoles amiables divers
+			Avocats pénalistes
+			Avocats fiscalistes 
+		Partenaires financiers:
+			Courtiers spécialisés dans le domaine de rachats de crédit, la restructuration, le lease-back, l'infine, les placements et les cautions
