@@ -12,7 +12,7 @@ et de domiciliation proposé par l'entreprise NSB
 ![alt text](https://github.com/clurgen/NSB-gestion-stage/blob/master/READ%20ME/NSBBDD-Workbench.png)
 
 >Cas d'utilisation représentant le fonctionnement du site de NSB
-![alt text](https://github.com/clurgen/NSB-gestion-stage/blob/master/READ%20ME/cas%20d'utilisation%20site.puml)
+![alt text](https://github.com/clurgen/NSB-gestion-stage/blob/master/READ%20ME/Cas%20D'utilisationNSB.PNG)
 
 Les outils mis en oeuvre sont WampServer, Apache et Sublime Text
 
